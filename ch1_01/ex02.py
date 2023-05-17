@@ -1,0 +1,8 @@
+age=int(input('나이?'))
+print(age-1)
+print('당신의 10년 뒤 나이')
+print(age+10)
+height = float(input('키 입력 : '))
+weight = float(input('몸무게 입력 : '))
+print('당신의 비만도 W/(H*H)*10000')
+print(weight/(height*height)*10000)
